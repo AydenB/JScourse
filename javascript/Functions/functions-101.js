@@ -1,6 +1,6 @@
 // Function - input (argument), code, output
 
-let greetUser = function(){
+let greetUser = function() {
     console.log('Welcome User')
 }
 
@@ -8,7 +8,7 @@ greetUser()
 greetUser()
 greetUser()
 
-let square = function(num){
+let square = function (num) {
     let result = num * num
     return result
 }
@@ -26,7 +26,7 @@ console.log(otherValue)
 //(32-0)
 //print the converted values
 
-let convert = function(temp){
+let convertFarenheitToCelsius = function (fahrenheit) {
     let Celsius = (fahrenheit - 32) * 5/9
     return Celsius
 }
