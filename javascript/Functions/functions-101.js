@@ -6,6 +6,7 @@ let greetUser = function(){
 
 greetUser()
 greetUser()
+greetUser()
 
 let square = function(num){
     let result = num * num
@@ -13,8 +14,8 @@ let square = function(num){
 }
 
 let value = square(3)
-
 let otherValue = square(10)
+
 console.log(value)
 console.log(otherValue)
 
@@ -26,10 +27,12 @@ console.log(otherValue)
 //print the converted values
 
 let convert = function(temp){
-    let resrult = (temp - 32) * 5/9
-    return esult
+    let Celsius = (fahrenheit - 32) * 5/9
+    return Celsius
 }
 
-let value1 = convert(32)
+let tempOne = convertFarenheitToCelsius(32)
+let tempTwo = convertFarenheitToCelsius(68)
 
-console.log(value1)
+console.log(tempOne)
+console.log(tempTwo)
