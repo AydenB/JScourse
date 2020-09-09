@@ -5,6 +5,6 @@
 
 
 let petName = "Pabst"
-let petName = "Spot"
+//let petName = "Spot"
 
 console.log (petName);
