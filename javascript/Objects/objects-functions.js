@@ -10,6 +10,12 @@ let otherBook = {
     pageCount: 723
 }
 
+let secondBook = {
+    title: "Breakfast of Champions",
+    author: "Kurt Vonnegut",
+    pageCount: 210
+}
+
 let getSummary = function (book) {
     console.log(`${book.title} by ${book.author}`)
 
