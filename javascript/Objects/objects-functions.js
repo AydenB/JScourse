@@ -17,9 +17,23 @@ let secondBook = {
 }
 
 let getSummary = function (book) {
-    console.log(`${book.title} by ${book.author}`)
-
+    return {
+        summary: `${book.title} by ${book.author}`,
+        pageCountSummary: `${book.title} is ${book.pageCount} pages long`
+    }
+    
 }
 
-getSummary(myBook)
-getSummary(otherBook)
+let bookSummary = getSummary(myBook)
+let otheBookSummary = getSummary(otherBook)
+
+console.log(bookSummary.pageCountSummary)
+
+
+
+// challenge area
+
+//create function
+//    take farenheit in - return with all three
+
+
